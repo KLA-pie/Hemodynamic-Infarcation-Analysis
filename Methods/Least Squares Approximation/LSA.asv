@@ -19,8 +19,6 @@ for ii = 1:512
 end
 
 Weighted_Characteristics = train_data'*train_data\train_data'*train_boolean;
-Hypothesized_Train_Values = train_data*Weighted_Characteristics;
+Hypothesized_Values = train_data*Weighted_Characteristics;
 
-train_Correctness = mean((Hypothesized_Train_Values > 0.61 == train_boolean));
-Hypothesized_Test_Values = test_data*Weighted_Characteristics;
-test_Correctness = mean((Hypothesized_Test_Values > 0.61 == train_boolean));
+mean((Hypothesized_Values > 0.5 == train_boolean)
