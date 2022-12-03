@@ -1,0 +1,112 @@
+Node 999999 Fatal signal raised sig = Segmentation fault
+ d91156f0 CX_Primitive_Error
+ d48c0cc0 seh_filter_exe
+ d91b5d20 logical_right_shift
+ bd91ef20 _C_specific_handler
+ d71f2300 _chkstk
+ d71a1070 RtlRaiseException
+ d71f0f20 KiUserExceptionDispatcher
+ d7303720 cx_strdup
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a25f0 set_cc
+ d91a2f30 eval_errprotect
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a25f0 set_cc
+ d91a2f30 eval_errprotect
+ d9116650 CX_Interpret_String
+ d7408970 rpgetvar_errprotect
+ d91b5d20 logical_right_shift
+ d61d74a0 BaseThreadInitThunk
+ d71a2680 RtlUserThreadStart
+
+Error [node 999999] [time 12/2/22 4:27:42] Abnormal Exit!
+Node 999999 Fatal signal raised sig = Segmentation fault
+ d91156f0 CX_Primitive_Error
+ d48c0cc0 seh_filter_exe
+ d91b5d20 logical_right_shift
+ bd91ef20 _C_specific_handler
+ d71f2300 _chkstk
+ d71a1070 RtlRaiseException
+ d71f0f20 KiUserExceptionDispatcher
+ d7303720 cx_strdup
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a25f0 set_cc
+ d91a2f30 eval_errprotect
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a25f0 set_cc
+ d91a2f30 eval_errprotect
+ d9116650 CX_Interpret_String
+ d7408970 rpgetvar_errprotect
+ d91b5d20 logical_right_shift
+ d61d74a0 BaseThreadInitThunk
+ d71a2680 RtlUserThreadStart
+
+Error [node 999999] [time 12/2/22 4:28:32] Abnormal Exit!
+Node 999999 Fatal signal raised sig = Segmentation fault
+ d91156f0 CX_Primitive_Error
+ d48c0cc0 seh_filter_exe
+ d91b5d20 logical_right_shift
+ bd91ef20 _C_specific_handler
+ d71f2300 _chkstk
+ d71a1070 RtlRaiseException
+ d71f0f20 KiUserExceptionDispatcher
+ d7303720 cx_strdup
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a25f0 set_cc
+ d91a2f30 eval_errprotect
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a25f0 set_cc
+ d91a2f30 eval_errprotect
+ d9116650 CX_Interpret_String
+ d7408970 rpgetvar_errprotect
+ d91b5d20 logical_right_shift
+ d61d74a0 BaseThreadInitThunk
+ d71a2680 RtlUserThreadStart
+
+Error [node 999999] [time 12/2/22 4:31:21] Abnormal Exit!
+Node 999999 Fatal signal raised sig = Segmentation fault
+ d91156f0 CX_Primitive_Error
+ d48c0cc0 seh_filter_exe
+ d91b5d20 logical_right_shift
+ bd91ef20 _C_specific_handler
+ d71f2300 _chkstk
+ d71a1070 RtlRaiseException
+ d71f0f20 KiUserExceptionDispatcher
+ d7303720 cx_strdup
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a25f0 set_cc
+ d91a2f30 eval_errprotect
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a0e00 eval
+ d91a25f0 set_cc
+ d91a2f30 eval_errprotect
+ d9116650 CX_Interpret_String
+ d7408970 rpgetvar_errprotect
+ d91b5d20 logical_right_shift
+ d61d74a0 BaseThreadInitThunk
+ d71a2680 RtlUserThreadStart
+
+Error [node 999999] [time 12/2/22 4:34:37] Abnormal Exit!

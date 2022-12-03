@@ -31,9 +31,10 @@ for ii = 1:1025
         Densities(ii) = 0.994;
     end
 end
+Densities = Densities*1000;
 max(CholesterolZScore)
-Pressure = heart1randomized(:,4);
-Viscosity = normrnd(.45,.1,1025,1);
+Pressure = heart1randomized(:,4)*133.32;
+Viscosity = normrnd(.45,.1,1025,1)/1000;
 Init_Cond = [Velocity,Densities,Pressure,Viscosity];
 train_cond = Init_Cond(1:512,:);
 test_cond = Init_Cond(513:1024,:);
@@ -45,3 +46,6 @@ for ii = 1:32
     Selected_train_conds(ii,:) = Init_Cond(Selected_Train_Points(ii),:);
     Selected_test_conds(ii,:) = Init_Cond(Selected_Test_Points(ii),:);
 end
+
+Sample_Train_Boolean = heart1randomized(Selected_Train_Points,14);
+Sample_Test_Boolean = heart1randomized(Selected_Test_Points,14);
